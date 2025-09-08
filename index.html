@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+     <div class="outer">
+    <h2 style="text-align: center; font-size: 30px;" class="title">Counter</h2>
+
+  
+    <div class="inner">
+      <button onclick="leftbtns()" class="btn" id="btnLeft" aria-label="Decrease">&larr;</button>
+      <input
+        id="field"
+        class="input"
+        type="text"
+        inputmode="numeric"
+        placeholder="Enter a number…"
+        value="0"
+        step="1"
+      />
+      <button onclick="rightbtns()" class="btn" id="btnRight" aria-label="Increase">&rarr;</button>
+    </div>
+  </div>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
