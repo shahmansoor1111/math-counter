@@ -1,11 +1,11 @@
 :root {
-      --bg: #0f172a;          /* slate-900 */
-      --card: #111827;        /* gray-900 */
+      --bg: #0b1120;          /* slate-900 */
+      --card: #0a0e16;        /* gray-900 */
       --muted: #334155;       /* slate-700 */
       --ring: #2acce6;        /* cyan-400 */
-      --text: #c4c7ccff;        /* gray-200 */
+      --text: rgb(195, 201, 212);        /* gray-200 */
       --btn: #1f2937;         /* gray-800 */
-      --btn-hover: #374151;   /* gray-700 */
+      --btn-hover: #262e39;   /* gray-700 */
     }
 
     * { box-sizing: border-box; }
@@ -35,7 +35,7 @@
       font-weight: 700;
       letter-spacing: .2px;
       font-size: 1.05rem;
-      color: #cbd5e1; /* slate-300 */
+      color: #2d3c4e; /* slate-300 */
     }
 
     /* Inner box */
@@ -43,7 +43,7 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      background: #0a0f1a;
+      background: #121b2e;
       border: 1px solid rgba(255,255,255,.07);
       padding: 12px;
       border-radius: 16px;
